@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Guide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>Country Guide</h1>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for a country..."
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+
+    <main class="main container">
+      <section class="country-info" id="countryInfo">
+        <!-- JS will populate this area with country data -->
+        <h2>Welcome!</h2>
+        <p>Type a country name above and click “Search” to get information.</p>
+      </section>
+
+      <section class="countries-grid" id="countriesGrid">
+        <!-- JS can populate multiple country cards here -->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Country Guide</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
